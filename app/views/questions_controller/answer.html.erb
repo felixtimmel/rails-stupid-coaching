@@ -1,2 +1,9 @@
-<p><%= @answer %></p>
+<div class="lineQ">
+  <p id= "question"><%= @question %></p>
+  <p>-You</p>
+</div>
+<div class="lineA">
+  <p id= "answer"><strong><%= @answer %></strong></p>
+  <p>-Your coach</p>
+</div>
 <%= link_to "Ask an other question", ask_path %>
